@@ -1,0 +1,19 @@
+{
+  "name": "allure-playwright-integration",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "e2e": "nx e2e client"
+  },
+  "private": true,
+  "dependencies": {
+    "allure-playwright": "^2.9.2",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@types/node": "^20.8.2"
+  }
+}
