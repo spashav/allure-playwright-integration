@@ -4,24 +4,11 @@
 name: Node.js CI
 
 on:
-  workflow_dispatch:
-    # Inputs the workflow accepts.
-    inputs:
-      name:
-        # Friendly description to be shown in the UI instead of 'name'
-        description: 'Person to greet'
-        # Default value if no value is explicitly provided
-        default: 'World'
-        # Input has to be provided for the workflow to run
-        required: true
-        # The data type of the input
-        type: string
+  workflow_dispatch
 
 jobs:
   e2e:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
     - name: Set up JDK
@@ -29,14 +16,15 @@ jobs:
       with:
         distribution: zulu
         java-version: 17
-    - name: Use Node.js 18.x
-      uses: actions/setup-node@v3
+    - uses: actions/setup-node@v3
       with:
-        node-version: 18.x
-        cache: 'npm'
-
-    - run: npm ci
-    - run: npm run e2e
+        node-version: 18
+    - name: Install dependencies
+      run: npm ci
+    - name: Install Playwright Browsers
+      run: npx playwright install --with-deps
+    - name: Run Playwright tests
+      run: npx playwright test
 
     - name: Load test report history
       uses: actions/checkout@v3
