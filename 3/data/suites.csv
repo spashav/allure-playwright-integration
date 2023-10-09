@@ -1,0 +1,12 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Oct 09 07:58:49 GMT 2023","Mon Oct 09 07:58:49 GMT 2023","60","chromium","example.spec.ts","","","","Test 1",""
+"passed","Mon Oct 09 07:58:49 GMT 2023","Mon Oct 09 07:58:49 GMT 2023","20","chromium","example.spec.ts","","","","Log in with username and password",""
+"passed","Mon Oct 09 07:58:50 GMT 2023","Mon Oct 09 07:58:50 GMT 2023","72","chromium","example.spec.ts","parameter Authentication","","","Test Authentication johndoe@example.com",""
+"passed","Mon Oct 09 07:58:49 GMT 2023","Mon Oct 09 07:58:49 GMT 2023","22","chromium","example.spec.ts","","","","Log in with username and password 2",""
+"passed","Mon Oct 09 07:58:50 GMT 2023","Mon Oct 09 07:58:50 GMT 2023","70","chromium","example.spec.ts","parameter Authentication","","","Test Authentication With Empty Login",""
+"passed","Mon Oct 09 07:58:49 GMT 2023","Mon Oct 09 07:58:50 GMT 2023","517","chromium","example.spec.ts","Sub step test","","","Some test",""
+"passed","Mon Oct 09 07:58:50 GMT 2023","Mon Oct 09 07:58:50 GMT 2023","73","chromium","example.spec.ts","","","","test 2","This test attempts to log into the website using a login and a password. Fails if any error happens.
+
+Note that this test does not test 2-Factor Authentication."
+"passed","Mon Oct 09 07:58:50 GMT 2023","Mon Oct 09 07:58:50 GMT 2023","84","chromium","example.spec.ts","parameter Authentication","","","Test Authentication johndie",""
+"passed","Mon Oct 09 07:58:50 GMT 2023","Mon Oct 09 07:58:50 GMT 2023","82","chromium","example.spec.ts","Sub step test","","","Some test 2",""
