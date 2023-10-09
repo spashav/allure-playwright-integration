@@ -1,0 +1,1 @@
+{"b71ff3a67e2e7a1fcd2ddb241a341a1f:5bd835b0d6b1d4ada3b9f0db936e82c8":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"3b1f39c1d311f9f5","reportUrl":"https://spashav.github.io/allure-playwright-integration/2//#testresult/3b1f39c1d311f9f5","status":"passed","time":{"start":1696837711031,"stop":1696837711081,"duration":50}}]}}
